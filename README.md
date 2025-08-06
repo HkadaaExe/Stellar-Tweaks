@@ -45,7 +45,7 @@ Android kernel parameters with multiple profiles for `Snapdragon`, `Mediatek`, `
 ## Donate? 
 *Wow, you are a generous person who want this update continue, thank you!*
 
-[![Donate](https://img.shields.io/badge/Support-Our_Project-6f42c1?style=for-the-badge&logo=heart&logoColor=white&labelColor=0D1117)](https://t.me/Ranblings/13)
+[![Donate](https://img.shields.io/badge/Support-Our_Project-6f42c1?style=for-the-badge&logo=heart&logoColor=white&labelColor=0D1117)](https://github.com/kanaodnd/DonateMePls)
 
 
 
