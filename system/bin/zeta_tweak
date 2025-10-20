@@ -2,7 +2,7 @@
 
 Collaboration script @zeta_zimp
 
-config_file="/data/adb/.config/stellar"
+config_file="/data/adb/.config/Yor-Forger"
 zeta_file="$config_file/zt"
 
 zeta_tweak_apply() {

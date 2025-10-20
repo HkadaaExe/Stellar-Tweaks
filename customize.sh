@@ -1,7 +1,7 @@
 #!/system/bin/sh
 
 #
-# Copyright (C) 2024-2025 Kanao
+# Copyright (C) 2024-2025 HkadaaaExe
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,10 +21,10 @@ PROPFILE=true
 POSTFSDATA=true
 LATESTARTSERVICE=true
 
-name="Stellar"
+name="Yor-Forger"
 mmk_package="bellavita.toast"
-basedir="/data/adb/.config/stellar"
-stellar_path="/data/adb/modules/stellar"
+basedir="/data/adb/.config/Yor-Forger"
+stellar_path="/data/adb/modules/Yor-Forger"
 USE_SYMLINK=false
 ROOT_METHOD="Magisk"
 CUSTOM_BIN_PATH=""
@@ -147,7 +147,7 @@ extract_and_place_files() {
     safe_extract 'gamelist.json' "$basedir"
     safe_extract 'addon/vmt' "$basedir"
     safe_extract 'webroot/*' "$MODPATH"
-    safe_extract 'stellar_icon.png' "/data/local/tmp"
+    safe_extract 'Yor-Forger_icon.png' "/data/local/tmp"
     safe_extract 'service/*' "$MODPATH"
     safe_extract 'common/*' "$MODPATH"
     safe_extract 'system/*' "$MODPATH"
@@ -158,7 +158,7 @@ extract_and_place_files() {
 
 handle_binaries() {
     print_status "Setting up binaries..."
-    local binaries="stellars profiles_mode vmt zeta_tweak"
+    local binaries="Yor-Forger profiles_mode vmt zeta_tweak"
     
     if $USE_SYMLINK; then
         print_status "Setting up symlinks for binaries..."
@@ -194,9 +194,9 @@ finalize_installation() {
     RAND_MSG=$((RANDOM % 5 + 1))
     case $RAND_MSG in
       1)  print_status "Let the light appear !" ;;
-      2)  print_status "The Stellar waits." ;;
-      3)  print_status "Light Stellar Glow." ;;
-      4)  print_status "Comet Stellar Flying." ;;
+      2)  print_status "The Yor-Forger waits." ;;
+      3)  print_status "Light Yor-Forger Glow." ;;
+      4)  print_status "Comet Yor-Forger Flying." ;;
       5)  print_status "Feed Me Donate Wen." ;;
     esac
     

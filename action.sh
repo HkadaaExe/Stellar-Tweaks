@@ -1,7 +1,7 @@
 #!/system/bin/sh
 
 #
-# Copyright (C) 2024-2025 Kanao
+# Copyright (C) 2024-2025 HkadaaaExe
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,13 +19,13 @@
     # Try simple KSU WebUI Standalone First
     if pm path com.dergoogler.mmrl.wx >/dev/null 2>&1; then
         echo "[*] Start Open WebUI on KSU Webui Standanlone.."
-        am start -n "com.dergoogler.mmrl.wx/.ui.activity.webui.WebUIActivity" -e id "stellar" > /dev/null 2>&1
+        am start -n "com.dergoogler.mmrl.wx/.ui.activity.webui.WebUIActivity" -e id "Yor-Forger" > /dev/null 2>&1
         exit 0
     fi
     
     if pm path com.dergoogler.mmrl >/dev/null 2>&1; then
         echo "[*] Starting WebUI through MMRL..."
-        am start -n "com.dergoogler.mmrl/.ui.activity.webui.WebUIActivity" -e MOD_ID "stellar" > /dev/null 2>&1
+        am start -n "com.dergoogler.mmrl/.ui.activity.webui.WebUIActivity" -e MOD_ID "Yor-Forger" > /dev/null 2>&1
         exit 0
     fi
 

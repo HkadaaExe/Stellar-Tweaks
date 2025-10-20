@@ -1,7 +1,7 @@
 #!/system/bin/sh
 
 #
-# Copyright (C) 2024-2025 Kanao -  Stellar Tweaks
+# Copyright (C) 2024-2025 HkadaaaExe -  Yor-Forger Tweaks
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
 hmp="/sys/kernel/hmp"
 kernel="/proc/sys/kernel"
 cpu_path="/sys/devices/system/cpu/cpu*/cpufreq"
-config_file="/data/adb/.config/stellar"
+config_file="/data/adb/.config/yor-forger"
 
 stellar_apply_param() {
     [ ! -f "$2" ] && return 1

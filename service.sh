@@ -1,7 +1,7 @@
 #!/system/bin/sh
 
 #
-# Copyright (C) 2024-2025 Kanao
+# Copyright (C) 2024-2025 HkadaaaExe
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,6 +23,6 @@ while [ "$(getprop sys.boot_completed | tr -d '\r')" != "1" ]; do sleep 10; done
 sleep 35  
       
 # Start MonPerf
-stellars
+yor-forger
 
 

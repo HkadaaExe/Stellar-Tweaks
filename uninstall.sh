@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #
-# Copyright (C) 2024-2025 Kanao
+# Copyright (C) 2024-2025 HkadaaaExe
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 #
 
 # Files to remove
-rm -f /data/local/tmp/Trinity_icon.png /data/stellar
+rm -f /data/local/tmp/Trinity_icon.png /data/yor-forger
 
 # Don't Let Any Cache/Empty/Traced/Garbage/Whatever
 BINS="util_func function_addon trinitys_dfc profiles_mode"
